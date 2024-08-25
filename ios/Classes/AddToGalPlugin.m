@@ -1,9 +1,9 @@
-#import "AddToGalleryPlugin.h"
+#import "AddToGalPlugin.h"
 
-#if __has_include(<add_to_gal/add_to_gal-Swift.h>)
-#import <add_to_gal/add_to_gal-Swift.h>
+#if __has_include(<add_to_gal/add_to_gal.h>)
+#import <add_to_gal/add_to_gal.h>
 #else
-#import "add_to_gal-Swift.h"
+#import "add_to_gal.h"
 #endif
 
 
